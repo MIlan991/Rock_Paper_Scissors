@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Karla:wght@400;500;800&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <title>Rock, Paper, Scissors</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+    <h1>Rock, Paper, Scissors</h1>
+    </header>
+
+    <div class="score">
+        <div class="player-table">
+            <h2>Player</h2>
+            <p id="player-score" class="score-text">0</p>
+        </div>
+        <div class="computer-table">
+            <h2>Computer</h2>
+            <p id="computer-score" class="score-text">0</p>
+        </div>
+    </div>
+
+    <div class="choice-row">
+        <p id="player-return">✋</p>
+        <p id="computer-return">✋</p>
+    </div>
+
+    <div id="choice-id" class="choice-weapon">
+        <button id="button-r" class="button-rock">🌑</button>
+        <button id="button-p" class="button-paper">📃</button>
+        <button id="button-s" class="button-scissors">✂️</button>
+    </div>
+
+    <div class="title">
+        <h2 id="title">Choose your weapon!</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(245, 104, 22);
+    text-align: center;
+    box-shadow: 0px 0px 10px 8px rgb(245, 104, 22);
+}
+
+h1 {
+    color: green;
+    font-size: 50px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 800;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.score{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.score h2 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    margin: 20px auto;
+    color: green;
+}
+
+.score p{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: brown;
+}
+
+.player-table, .computer-table{
+    text-align: center;
+}
+
+.choice-row{
+    width: 60%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.choice-row p{
+    font-size: 62px;
+}
+
+#computer-return {
+   transform: rotateY(180deg);
+}
+
+.choice-weapon{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 60px auto;
+}
+
+.choice-weapon button{
+    font-size: 72px;
+    width: 84px;
+    height: 84px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.choice-weapon button:hover{
+    transform: scale(1.2);
+}
+
+.title h2{
+    font-size: 48px;
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    color: blue;
+}
+
+@media only screen and (max-width: 480px){
+
+}
